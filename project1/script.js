@@ -61,7 +61,7 @@ squares.addEventListener('click', function(event) {
         } else {
             // first check if it is last round ..
             if((gameRound - 1) == rounds){
-                alert("YOU WON THE WHOLE GAME!");
+                alert("Unlocked! You Won Enough Money for a lifetime");
             } else { // if not, then continue playing with computer turn
                 alert("Nice Job... Next Round!");
                 setTimeout(function(){

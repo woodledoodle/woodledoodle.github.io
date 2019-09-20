@@ -58,7 +58,11 @@ img{
 #start{
     height: 60px;
     width:70px;
-    background-color: lightyellow;
+    font-weight: 900;
+    font-size: larger;
+    background-color: lightcoral;
+    border-width: thick;
+    position: relative;
 }
 
 #level {
@@ -68,6 +72,7 @@ img{
     height: 40px;
     width: 70px;
     text-align: center;
+    position: relative;
   }
   #playing{
     background:black;
@@ -90,4 +95,4 @@ img{
       font-size: 100%;
   }
 
-  /* 1125/753 */
+ 
