@@ -1,0 +1,93 @@
+#squares{
+    background-image: url("https://i.imgur.com/3kXRgKD.png");
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+   
+}   
+#boardContainer{
+    position: absolute;
+    left: 130px;
+    top: 260px;
+
+}
+#square-0{
+    height: 90px;
+    width: 90px;
+    background-color: red;
+    position: absolute;
+    top: 90px;
+    
+}
+#square-1{
+    height: 90px;
+    width: 90px;
+    background-color: blue;
+    position:absolute;
+    left: 90px;
+    top: 90px;
+
+}
+#square-2{
+    height: 90px;
+    width: 90px;
+    background-color:green;
+    position:absolute;
+    left: 90px;
+    
+}
+#square-3{
+    height: 90px;
+    width: 90px;
+    background-color:orange;
+    position:absolute;
+}
+
+img{
+    max-width: 45%;
+    max-height: 40%;
+    z-index: -1;
+}
+
+
+#start{
+    height: 60px;
+    width:70px;
+    background-color: lightyellow;
+}
+
+#level {
+    background:black;
+    color: red;
+    font-size: 20px;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+  }
+  #playing{
+    background:black;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+  }
+  
+  #image{
+      background-image: url('https://i.imgur.com/MAmATPu.png');
+      height: 100vh;
+      opacity: .8;
+  }
+  p{
+      color:white;
+  }
+  body{
+      font-size: 100%;
+  }
+
+  /* 1125/753 */
